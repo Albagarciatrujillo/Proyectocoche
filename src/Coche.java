@@ -28,6 +28,11 @@ public class Coche {
         this.anio = anio;
     }
 
+    public void encender() {
+        System.out.println("El coche está encendido.");
+    }
+
+
     @Override
     public String toString() {
         return "Coche {"+
